@@ -28,9 +28,12 @@
                                             <constraint firstAttribute="height" constant="60" id="Z5m-Wa-efn"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Disney">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yx9-gI-4O3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vs8-Wh-n2n">
                                         <rect key="frame" x="0.0" y="120" width="260" height="60"/>
@@ -39,9 +42,12 @@
                                             <constraint firstAttribute="height" constant="60" id="d2O-D9-5qC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Anime">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VpU-rN-FSk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hn-5w-3fI">
                                         <rect key="frame" x="0.0" y="240" width="260" height="60"/>
@@ -50,9 +56,12 @@
                                             <constraint firstAttribute="height" constant="60" id="lVu-B7-SjR"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="K-pop">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ivx-Vi-sYf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -71,6 +80,9 @@
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qzc-oh-vS4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uE-U3-0dd">
                                 <rect key="frame" x="197" y="503.5" width="120" height="60"/>
@@ -83,6 +95,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.90129128889999999" green="0.22369082179999999" blue="0.082624905410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tKg-hw-1Gx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
