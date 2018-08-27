@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		28C5B74821339EAB00CCBE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5B74721339EAB00CCBE1E /* AppDelegate.swift */; };
-		28C5B74A21339EAB00CCBE1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5B74921339EAB00CCBE1E /* ViewController.swift */; };
 		28C5B74D21339EAB00CCBE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5B74B21339EAB00CCBE1E /* Main.storyboard */; };
 		28C5B74F21339EAD00CCBE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5B74E21339EAD00CCBE1E /* Assets.xcassets */; };
 		28C5B75221339EAD00CCBE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5B75021339EAD00CCBE1E /* LaunchScreen.storyboard */; };
 		28C5B75D21339EAE00CCBE1E /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5B75C21339EAE00CCBE1E /* MusicPlayerTests.swift */; };
 		28C5B76821339EAE00CCBE1E /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5B76721339EAE00CCBE1E /* MusicPlayerUITests.swift */; };
+		28C5B77621339F9700CCBE1E /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5B77521339F9700CCBE1E /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		28C5B74421339EAB00CCBE1E /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C5B74721339EAB00CCBE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28C5B74921339EAB00CCBE1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28C5B74C21339EAB00CCBE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28C5B74E21339EAD00CCBE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C5B75121339EAD00CCBE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		28C5B76321339EAE00CCBE1E /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C5B76721339EAE00CCBE1E /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		28C5B76921339EAE00CCBE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C5B77521339F9700CCBE1E /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				28C5B74721339EAB00CCBE1E /* AppDelegate.swift */,
-				28C5B74921339EAB00CCBE1E /* ViewController.swift */,
+				28C5B77521339F9700CCBE1E /* GenreButtonScreen.swift */,
 				28C5B74B21339EAB00CCBE1E /* Main.storyboard */,
 				28C5B74E21339EAD00CCBE1E /* Assets.xcassets */,
 				28C5B75021339EAD00CCBE1E /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C5B74A21339EAB00CCBE1E /* ViewController.swift in Sources */,
 				28C5B74821339EAB00CCBE1E /* AppDelegate.swift in Sources */,
+				28C5B77621339F9700CCBE1E /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
